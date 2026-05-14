@@ -176,8 +176,8 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex-1 relative order-1 md:order-2 w-full"
           >
-             <div className="aspect-[4/5] sm:aspect-[3/4] md:aspect-[1/1] lg:aspect-[4/3] bg-stone-100 overflow-hidden relative">
-   <img src="/han.webp" alt="Jan & Yoshiko" />
+            <div className="aspect-[4/5] sm:aspect-[3/4] md:aspect-[1/1] lg:aspect-[4/3] bg-stone-100 overflow-hidden relative">
+   <img src="/han.webp" alt="Jan & Yoshiko" loading="lazy" decoding="async" className="w-full h-full object-cover object-[center_25%] sm:object-[center_30%] md:object-[center_20%] grayscale-[30%]" />
 </div>
           </motion.div>
         </div>
