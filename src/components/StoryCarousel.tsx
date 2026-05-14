@@ -83,7 +83,7 @@ export function StoryCarousel() {
         autoPlay
         muted
         playsInline
-        preload="auto"
+        preload="metadata"
       />
 
       {/* Bottom gradient (from bottom of video up to before center) */}
