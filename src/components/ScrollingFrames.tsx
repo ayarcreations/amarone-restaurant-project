@@ -43,7 +43,7 @@ export function ScrollingFrames({ className = "" }: ScrollingFramesProps) {
 
   useEffect(() => {
     // Show content after first batch loads (20 frames) instead of waiting for all
-    if (imagesLoaded >= 20) {
+    if (imagesLoaded >= 1) {
       setTimeout(() => setIsLoading(false), 200);
     }
   }, [imagesLoaded]);
