@@ -78,7 +78,6 @@ export function StoryCarousel() {
       {/* Video */}
       <video
         ref={videoRef}
-        key={VIDEOS[active]}
         src={VIDEOS[active]}
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
